@@ -1,0 +1,76 @@
+.game-box{
+    width: 600px;
+    height: 600px;
+    border-width: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.begin-btn{
+    width: 120px;
+    height: 40px;
+    background: darksalmon;
+    border-radius: 10px;
+    border-width: 1px;
+    color: lightcyan;
+    margin-top: 20px;
+    outline: none;
+}
+
+.begin-btn:hover{
+    cursor: pointer;
+}
+
+.score-box{
+    width: 160px;
+    height: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.score-text{
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    color: cornflowerblue;
+}
+
+.score{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    color: coral;
+}
+
+.game-box .table .span-box span{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    box-sizing: border-box;
+    vertical-align: bottom
+}
+
+.game-box .table .span-box{
+    width: 280px;
+    height: 50px;
+    margin: auto;
+    /*border: solid;*/
+}
+
+.table{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
